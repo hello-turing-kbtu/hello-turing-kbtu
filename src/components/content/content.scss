@@ -1,5 +1,22 @@
+@font-face {
+    font-family: "joystix";
+    src: local("joystix"),
+    url("../../assets/fonts/joystix.ttf") format("ttf");
+}
+
 .main {
-    h1 {
-        font-family: joystix;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-wrapper {
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h2 {
+            font-family: 'Courier New', Courier, monospace;
+        }
     }
 }
