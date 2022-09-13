@@ -1,0 +1,11 @@
+.footer {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        color: rgba(0, 0, 0, .1) !important;
+    }
+}
