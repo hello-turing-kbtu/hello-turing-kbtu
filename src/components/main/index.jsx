@@ -24,6 +24,14 @@ const data = [
 ];
 
 export const Main = () => {
+  const handleArrow = () => {
+    console.log("clicked");
+    window.scrollTo({
+      top: 750,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <div className="main">
@@ -42,10 +50,16 @@ export const Main = () => {
         <div className="main-form">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://docs.google.com/forms/d/e/1FAIpQLSdAK72aTAqXNq5PHiHo1rteIeL3fg8MG1VNkf0jFNqPpSNg2A/viewform"
           >
-            <button>Apply now 🎉</button>
+            <button className="btn">Apply now 🎉</button>
           </a>
+        </div>
+        <div className="main-arrow">
+          <button onClick={handleArrow}>
+            <span>↓</span>
+          </button>
         </div>
       </div>
     </>
