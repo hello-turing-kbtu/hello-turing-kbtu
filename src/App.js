@@ -1,7 +1,7 @@
 import './App.scss';
 
 import { Footer } from "./components/footer";
-import { Main } from "./components/content";
+import { Main } from "./components/main";
 
 function App() {
   return (
