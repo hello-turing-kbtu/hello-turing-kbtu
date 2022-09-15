@@ -27,7 +27,7 @@ export const Main = () => {
   const handleArrow = () => {
     console.log("clicked");
     window.scrollTo({
-      top: 750,
+      top: 760,
       behavior: "smooth",
     });
   };
